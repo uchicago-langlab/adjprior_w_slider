@@ -120,9 +120,6 @@ jqueryWidget: {
         assert(typeof(this.endValue) == "number", "'endValue' option must be a number");
         // this.buttonMessage = this.options.buttonMessage || "Continue";
 
-        this.leftLabel = dget(this.options, "leftLabel");
-        this.rightLabel = dget(this.options, "rightLabel");
-
         this.$html1 = htmlCodeToDOM(this.html1);
         this.element.append($("<div>").addClass(this.cssPrefix + 'html1').append(this.$html1));
 
@@ -158,16 +155,12 @@ jqueryWidget: {
             $bar.append($leftLabel);
             $bar.append($rightLabel);
 
-            this.$leftLabel.text(dget(this.options, "leftLabel"));
-            this.$rightLabel.text(dget(this.options, "rightLabel"));
-
-            // this.$leftLabel.text(this.startValue.toFixed(this.decimalPlaces));
-            // this.$rightLabel.text(this.endValue.toFixed(this.decimalPlaces));
+            this.$leftLabel.text(this.startValue.toFixed(this.decimalPlaces));
+            this.$rightLabel.text(this.endValue.toFixed(this.decimalPlaces));
         }
         this.element.append($bar);
 
-        this.handleLeft = parseInt(this.scaleWidth / 2);
-        // this.handleLeft = parseInt(0);
+        this.handleLeft = parseInt(0);
         this.fraction = 0.5;
         t();
         function t() {
