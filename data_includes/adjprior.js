@@ -34,7 +34,6 @@ var defaults = [
         hideProgressBar: true,
         continueOnReturn: true,
         saveReactionTime: true,
-        continueMessage: null
     },
     "Vorm", {
         hideProgressBar: true,
