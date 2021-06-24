@@ -12,7 +12,7 @@ jqueryWidget: {
             // this.options.transfer = null; // Remove 'click to continue message'
             options:     this.options,
             triggers:    [7],
-            children:    ["Form", {html: {include: this.options.include}},
+            children:    ["Form", {html: {include: this.options.include}, continueMessage: null},
                           "StaticSentence2",{s2: this.options.s2},
                           "Scale_NoButton", {html1: this.options.html1},
                           "Scale_NoButton2", {html2: this.options.html2},
