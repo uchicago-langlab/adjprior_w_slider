@@ -1,0 +1,50 @@
+.html5 {
+    text-align: left;
+    align: left;
+    float: left;
+    margin-left: -50px;
+    width: 350px;
+}
+
+.bar {
+    margin-top: 15%;
+    width: 300px;
+    height: 20px;
+    /*position: relative;*/
+    /*background: green;*/
+    background-image: none !important;
+    background-color: #000080;
+    float: right;
+    align: right;
+    margin-right: -25px;
+    margin-bottom: -10px;
+}
+
+.handle, .scale-label {
+    font-family: serif;
+    position: absolute;
+    border: 2px solid white;
+    background: white !important;
+    float: right;
+    align: right;
+    margin-right: -25px;
+}
+
+
+.handle {
+    width: 60px;
+    height: 60px;
+    cursor: default;
+    font-face: bold;
+    border: 2px solid red;
+    background: red !important;
+    float: right;
+    align: right;
+    margin-right: -25px;
+}
+
+
+
+.button {
+    display: none;
+}
