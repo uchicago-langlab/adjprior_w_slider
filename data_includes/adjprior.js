@@ -115,11 +115,11 @@ var items = [
 // items
 [["test",3], "MultiSlider", {include: 'filler_garlic.html', 
                             s2: "   ", 
-                            html1: '<img src="https://github.com/uchicago-langlab/gradable_adjs/blob/main/materials/fillers/garlic1.jpeg?raw=true" width="200px"/>', 
-                            html2: '<img src="https://github.com/uchicago-langlab/gradable_adjs/blob/main/materials/fillers/garlic2.jpeg?raw=true" width="200px"/>',
-                            html3: '<img src="https://github.com/uchicago-langlab/gradable_adjs/blob/main/materials/fillers/garlic3.jpeg?raw=true" width="200px"/>',
-                            html4: '<img src="https://github.com/uchicago-langlab/gradable_adjs/blob/main/materials/fillers/garlic4.jpeg?raw=true" width="200px"/>',
-                            html5: '<img src="https://github.com/uchicago-langlab/gradable_adjs/blob/main/materials/fillers/garlic5.jpeg?raw=true" width="200px"/>', 
+                            html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/fillers/garlic1.jpeg?raw=true" width="200px"/>', 
+                            html2: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/fillers/garlic2.jpeg?raw=true" width="200px"/>',
+                            html3: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/fillers/garlic3.jpeg?raw=true" width="200px"/>',
+                            html4: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/fillers/garlic4.jpeg?raw=true" width="200px"/>',
+                            html5: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/fillers/garlic5.jpeg?raw=true" width="200px"/>', 
                             html6:""}]
     
     ];
