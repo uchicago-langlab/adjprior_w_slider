@@ -128,7 +128,7 @@ var items = [
         consentRequired: false,
         transfer: "click",
         html: "<div><p>You've finished the first practice item.</p>",
-        continueMessage: "Click here to begin the first practice item",
+        continueMessage: "Click here to begin the second practice item",
     }],
 
     ["practice1", "MultiSlider", {
