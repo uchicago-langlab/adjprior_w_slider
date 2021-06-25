@@ -157,7 +157,8 @@ var items = [
             consentRequired: false,
             transfer: "click",
             continueMessage: "Click here to begin the experiment.",
-            html: "<div><p>You have finished the practice section.</p><p>You will not receive any more instructions for the rest of the study. For each sentence you will see, please <b>choose the image you think is the most likely in the world. </b></p>",
+            html: "<div><p>You have finished the practice section.</p>\
+            <p>You will not receive any more instructions for the rest of the study. For each image you will see, please <b>rate on a scale from 0 to 100 about how likely it is in the world. </b></p>",
     }],
 
     
