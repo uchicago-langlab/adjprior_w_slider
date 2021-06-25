@@ -1,5 +1,5 @@
 
-var shuffleSequence = seq("consent", "intro", "practice", rshuffle(startsWith("item-")), "questionnaire", "exit");
+var shuffleSequence = seq("consent", "intro", "practice1_intro", "practice1", "practice2_intro", "practice2", rshuffle(startsWith("item-")), "questionnaire", "exit");
 
 var showProgressBar = false;
 var pageTitle = "Mechanical Turk Experiment";
@@ -117,7 +117,20 @@ var items = [
         continueMessage: "click here to submit your results!"
     }],
 
-    ["practice", "MultiSlider", {
+    ["practice1_intro", "Message", {
+        consentRequired: false,
+        transfer: "click",
+        continueMessage: "Click here to begin the first practice item",
+        html: "<div><p>There will be 2 practice trials to help you get familiar with the procedures.</p>",
+    }],
+
+    ["practice2_intro", "Message", {
+        consentRequired: false,
+        transfer: "click",
+        continueMessage: "Click here to begin the first practice item",
+    }],
+
+    ["practice1", "MultiSlider", {
         include: "practice1.html", 
         s2: "", 
         html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/practice/pear1.png?raw=true" width="200px"/>', 
@@ -128,7 +141,7 @@ var items = [
         html6:""}
     ],
 
-    ["practice", "MultiSlider", {
+    ["practice2", "MultiSlider", {
         include: "practice2.html", 
         s2: "", 
         html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/practice/triangle1.png?raw=true" width="200px"/>', 
@@ -138,6 +151,13 @@ var items = [
         html5: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/practice/triangle5.png?raw=true" width="200px"/>', 
         html6:""}
     ],
+
+    ["end_practice", "Message", {
+            consentRequired: false,
+            transfer: "click",
+            continueMessage: "Click here to begin the experiment.",
+            html: "<div><p>You have finished the practice section.</p><p>You will not receive any more instructions for the rest of the study. For each sentence you will see, please <b>choose the image you think is the most likely in the world. </b></p>",
+    }],
 
     
     // Target Items
