@@ -1,5 +1,5 @@
 
-var shuffleSequence = seq("consent", "intro", "practice1_intro", "practice1", "practice2_intro", "practice2", rshuffle(startsWith("item-")), "questionnaire", "exit");
+var shuffleSequence = seq("consent", "intro", "practice1_intro", "practice1", "practice2_intro", "practice2", "end_practice", rshuffle(startsWith("item-")), "questionnaire", "exit");
 
 var showProgressBar = false;
 var pageTitle = "Mechanical Turk Experiment";
