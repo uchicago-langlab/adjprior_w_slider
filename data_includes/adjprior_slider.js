@@ -127,6 +127,7 @@ var items = [
     ["practice2_intro", "Message", {
         consentRequired: false,
         transfer: "click",
+        html: "<div><p>You've finished the first practice item.</p>",
         continueMessage: "Click here to begin the first practice item",
     }],
 
