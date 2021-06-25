@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- image group id: item_shape_plain_striped_stripedd_redcircle    border="1"  -->
+<html>
+
+<style>
+
+.large {
+  font-size: 36px;
+}
+
+.medium {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Customize the label (the container) */
+.container {
+ display: block;
+ position: relative;
+ padding-left: 35px;
+ margin-bottom: 12px;
+ cursor: pointer;
+ font-size: 22px;
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+ position: absolute;
+ opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+ position: absolute;
+ top: 0;
+ left: 87px;
+ height: 25px;
+ width: 25px;
+ background-color: #eee;
+ border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+ background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+ background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+ content: "";
+ position: absolute;
+ display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+ display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ top: 9px;
+ left: 9px;
+ width: 8px;
+ height: 8px;
+ border-radius: 50%;
+ background: white;
+}
+
+table {
+     margin: auto;
+ }
+
+</style>
+
+<div class="large" style="width: 1200px; margin-top:0em;">
+
+  <table>
+
+    <tr>
+      <td>
+        <img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/shape/striped_redcircle1.jpeg?raw=true" width="200px"/>
+      </td>
+      <td>
+        <img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/shape/striped_redcircle2.jpeg?raw=true" width="200px" />
+      </td>
+      <td>
+        <img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/shape/striped_redcircle3.jpeg?raw=true" width="200px" />
+      </td>
+      <td>
+        <img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/shape/striped_redcircle4.jpeg?raw=true" width="200px" />
+      </td>
+      <td>
+        <img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/shape/striped_redcircle5.jpeg?raw=true" width="200px" />
+      </td>
+    </tr>
+
+  </table>
+
+</div>
+
+<div class="medium" style="width: 1200px; margin-top:0em;">
+
+  How likely is each of these in the real world?
+
+</div>
+
+</html>
