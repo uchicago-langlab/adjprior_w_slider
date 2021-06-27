@@ -556,11 +556,11 @@ var items = [
     [["item-fish", 209], "MultiSlider", {
         include: "item_artifact_plain_striped_bw_stripe_fish.html", 
         s2: "", 
-        html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/fish1.jpeg?raw=true" width="200px"/>', 
-        html2: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/fish2.jpeg?raw=true" width="200px"/>',
-        html3: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/fish3.jpeg?raw=true" width="200px"/>',
-        html4: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/fish4.jpeg?raw=true" width="200px"/>',
-        html5: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/fish5.jpeg?raw=true" width="200px"/>', 
+        html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/bw_stripe_fish1.jpeg?raw=true" width="200px"/>', 
+        html2: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/bw_stripe_fish2.jpeg?raw=true" width="200px"/>',
+        html3: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/bw_stripe_fish3.jpeg?raw=true" width="200px"/>',
+        html4: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/bw_stripe_fish4.jpeg?raw=true" width="200px"/>',
+        html5: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/bw_stripe_fish5.jpeg?raw=true" width="200px"/>', 
         html6:""}
     ],
 
