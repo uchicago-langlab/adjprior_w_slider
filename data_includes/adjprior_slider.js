@@ -676,11 +676,11 @@ var items = [
     [["item-marker", 219], "MultiSlider", {
         include: "item_artifact_thin_thick_marker.html", 
         s2: "", 
-        html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker1.jpeg?raw=true" width="200px"/>', 
-        html2: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker2.jpeg?raw=true" width="200px"/>',
-        html3: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker3.jpeg?raw=true" width="200px"/>',
-        html4: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker4.jpeg?raw=true" width="200px"/>',
-        html5: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker5.jpeg?raw=true" width="200px"/>', 
+        html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker1.jpeg?raw=true" width="100px"/>', 
+        html2: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker2.jpeg?raw=true" width="100px"/>',
+        html3: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker3.jpeg?raw=true" width="100px"/>',
+        html4: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker4.jpeg?raw=true" width="100px"/>',
+        html5: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/marker5.jpeg?raw=true" width="100px"/>', 
         html6:""}
     ],
 
@@ -724,11 +724,11 @@ var items = [
     [["item-shoe", 223], "MultiSlider", {
         include: "item_artifact_smooth_bumpy_shoe.html", 
         s2: "", 
-        html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe1.jpeg?raw=true" width="200px"/>', 
-        html2: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe2.jpeg?raw=true" width="200px"/>',
-        html3: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe3.jpeg?raw=true" width="200px"/>',
-        html4: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe4.jpeg?raw=true" width="200px"/>',
-        html5: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe5.jpeg?raw=true" width="200px"/>', 
+        html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe1.jpeg?raw=true" width="100px"/>', 
+        html2: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe2.jpeg?raw=true" width="100px"/>',
+        html3: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe3.jpeg?raw=true" width="100px"/>',
+        html4: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe4.jpeg?raw=true" width="100px"/>',
+        html5: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/artifact/shoe5.jpeg?raw=true" width="100px"/>', 
         html6:""}
     ],
 
