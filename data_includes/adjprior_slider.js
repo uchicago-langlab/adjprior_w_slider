@@ -11,8 +11,8 @@ var completionErrorMessage = "something went wrong";
 
 var defaults = [
     "Separator", {
-        transfer: 350,
-        normalMessage: "Please wait for the next sentence.",
+        transfer: 1000,
+        normalMessage: "Please wait for the next item.",
         errorMessage: "+",
         ignoreFailure: true
     },
