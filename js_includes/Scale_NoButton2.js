@@ -120,6 +120,9 @@ jqueryWidget: {
         assert(typeof(this.endValue) == "number", "'endValue' option must be a number");
         // this.buttonMessage = this.options.buttonMessage || "Continue";
 
+        this.leftLabel = dget(this.options, "leftLabel");
+        this.rightLabel = dget(this.options, "rightLabel");
+
         this.$html2 = htmlCodeToDOM(this.html2);
         this.element.append($("<div>").addClass(this.cssPrefix + 'html2').append(this.$html2));
 
@@ -155,8 +158,8 @@ jqueryWidget: {
             $bar.append($leftLabel);
             $bar.append($rightLabel);
 
-            this.$leftLabel.text(this.startValue.toFixed(this.decimalPlaces));
-            this.$rightLabel.text(this.endValue.toFixed(this.decimalPlaces));
+            this.$leftLabel.text(dget(this.options, "leftLabel"));
+            this.$rightLabel.text(dget(this.options, "rightLabel"));
         }
         this.element.append($bar);
 
@@ -264,7 +267,7 @@ jqueryWidget: {
         var htop = (barTop - parseInt(Math.round((this.handleHeight - this.scaleHeight)/2.0)));
         this.$handle.css('left', hleft + 'px');
         this.$handle.css('top', htop + 'px');
-        this.$handleLabel.text(this.fraction.toFixed(this.decimalPlaces));
+        // this.$handleLabel.text(this.fraction.toFixed(this.decimalPlaces));
         this.$handleLabel.css('left', parseInt(hleft + this.handleWidth/2 - this.$handleLabel.width()/2) + 'px');
         this.$handleLabel.css('top', parseInt(htop - this.handleHeight) + 'px');
         // Set color for handle.

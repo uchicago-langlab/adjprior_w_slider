@@ -21,9 +21,10 @@
 }
 
 .handle, .handle-label, .scale-label {
-    font-family: sans-serif;
+    font-family: serif;
     position: absolute;
-    background: red !important;
+    border: 2px solid white;
+    background: white !important;
     float: right;
     align: right;
     margin-right: -25px;
