@@ -784,7 +784,7 @@ var items = [
     ],
 
     // Garlic
-    [["filler", 304], "MultiSlider", {
+    [["item-filler", 304], "MultiSlider", {
         include: "filler_garlic.html", 
         s2: "   ", 
         html1: '<img src="https://github.com/uchicago-langlab/adjprior_w_slider/blob/main/materials/fillers/garlic1.jpeg?raw=true" width="200px"/>', 
