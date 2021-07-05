@@ -110,10 +110,11 @@ var items = [
             age: function (s) { if (s.match(/^\d+$/)) return true; else return "Bad value for \u2018age\u2019"; }
         }
     }],
+    
 
     ["questionnaire", "Form", {
         html: {include: "questionnaire.html"},
-        continueMessage: "click here to obtain an MTurk validation code"
+        continueMessage: "click here to obtain a Prolific validation code"
     }],
 
     ["exit", "Form", {
@@ -162,7 +163,7 @@ var items = [
             transfer: "click",
             continueMessage: "Click here to begin the experiment.",
             html: "<div><p>You have finished the practice section.</p>\
-            <p>You will not receive any more instructions for the rest of the study. For each image you will see, please <b>rate on a scale from 0 to 100 about how likely it is in the world. </b></p>",
+            <p>You will not receive any more instructions for the rest of the study. For each image you will see, please <b>rate on a scale from 0 to 100 about how likely it is. </b></p>",
     }],
 
     
