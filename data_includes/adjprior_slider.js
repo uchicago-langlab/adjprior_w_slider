@@ -2,7 +2,7 @@
 var shuffleSequence = seq("consent", "intro", "practice1_intro", "practice1", "practice2_intro", "practice2", "end_practice", sepWith("sep", rshuffle(startsWith("item-"))), "questionnaire", "exit");
 
 var showProgressBar = false;
-var pageTitle = "Mechanical Turk Experiment";
+var pageTitle = "Prolific Experiment";
 // "The results were successfully sent to the server.
 // You can now validate your participation on Mechanical Turk. Thanks!"
 var completionMessage = "your results have been submitted -- thank you!";
