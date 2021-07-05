@@ -15,7 +15,6 @@ var defaults = [
         normalMessage: "Please wait for the next item.",
         errorMessage: "+",
         ignoreFailure: true,
-        hideProgressBar: false
     },
     "DashedSentence", {
         hideProgressBar: true
@@ -98,7 +97,7 @@ var defaults = [
 
 var items = [
 
-    ["sep", "Separator", { }],
+    ["sep", "Separator", {hideProgressBar: false}],
 
     ["consent", "Form", {
         consentRequired: true,
