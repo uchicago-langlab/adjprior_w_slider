@@ -97,7 +97,7 @@ var defaults = [
 
 var items = [
 
-    ["sep", "Separator", {hideProgressBar: false}],
+    ["sep", "Separator", { }],
 
     ["consent", "Form", {
         consentRequired: true,
