@@ -14,7 +14,8 @@ var defaults = [
         transfer: 1000,
         normalMessage: "Please wait for the next item.",
         errorMessage: "+",
-        ignoreFailure: true
+        ignoreFailure: true,
+        hideProgressBar: false
     },
     "DashedSentence", {
         hideProgressBar: true
@@ -50,35 +51,35 @@ var defaults = [
         endValue: 100,
         hideProgressBar: true,
         scaleLabels: true,
-        leftLabel: "0: Totally unlikely", rightLabel: "100: Totally likely"
+        leftLabel: "0: Very unlikely", rightLabel: "100: Very likely"
     },
     "Scale_NoButton2", {
         startValue: 0,
         endValue: 100,
         hideProgressBar: true,
         scaleLabels: true,
-        leftLabel: "0: Totally unlikely", rightLabel: "100: Totally likely"
+        leftLabel: "0: Very unlikely", rightLabel: "100: Very likely"
     },
     "Scale_NoButton3", {
         startValue: 0,
         endValue: 100,
         hideProgressBar: true,
         scaleLabels: true,
-        leftLabel: "0: Totally unlikely", rightLabel: "100: Totally likely"
+        leftLabel: "0: Very unlikely", rightLabel: "100: Very likely"
     },
     "Scale_NoButton4", {
         startValue: 0,
         endValue: 100,
         hideProgressBar: true,
         scaleLabels: true,
-        leftLabel: "0: Totally unlikely", rightLabel: "100: Totally likely"
+        leftLabel: "0: Very unlikely", rightLabel: "100: Very likely"
     },
     "Scale_New", {
         startValue: 0,  
         endValue: 100,
         hideProgressBar: true,
         scaleLabels: true,
-        leftLabel: "0: Totally unlikely", rightLabel: "100: Totally likely"
+        leftLabel: "0: Very unlikely", rightLabel: "100: Very likely"
     },
     "StaticSentence",{
         hideProgressBar: true
